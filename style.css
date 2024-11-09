@@ -6,20 +6,20 @@
 }
 .navbar{
     height: 60px;
-    background-color: #0f1111;
+    background-color: #11100f;
     color: #ffffff;
     display: flex;
     justify-content: space-evenly;
     align-items: center;  
 }
 .nav-logo{
-    height: 50px;
+    height: 58px;
     width: 100px;
 }
 .logo{
     background-image: url(https://www.shutterstock.com/image-vector/amazon-logo-editorial-icon-isolated-260nw-2333488123.jpg);
     background-size: cover;
-    height: 50px;
+    height: 58px;
     width: 100%;
 }
 .border{
@@ -128,4 +128,45 @@ span{
 .pannel-deal{
     font-size: 0.9rem;
     font-weight: 700;
+}
+
+/* Hero Section */
+
+.hero{
+    background-image: url(https://m.media-amazon.com/images/I/61BKVkj5+uL._SX3000_.jpg);
+    background-size: cover;
+    height: 600px;
+
+}
+
+/* Content */
+.shoping-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    border: 2px solid rgb(246, 218, 218);
+    height: 370px;
+    width: 23%;
+    background-color: #ffffff;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.back-img{
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+.box-content p{
+    color: #007185;
+}
+#abc{
+    background-repeat: no-repeat;
 }
